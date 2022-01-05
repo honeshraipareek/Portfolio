@@ -1,0 +1,42 @@
+
+html{
+    zoom: 60%;
+}
+
+*{
+    background-color: rgb(47, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+
+}
+
+.btn_1 {
+    vertical-align: middle;
+    align-content: center;
+    width: 400px;
+    height: 150px;
+    border: none;
+    color: white;
+    background-color: rgb(230, 132, 5);
+    border-radius: 80px;
+    /*box-shadow:inset 0 0 0 0 #a8f561;*/
+    transition: ease-out 0.3s;
+    font-size: 2.5rem;
+
+}
+
+.btn_1:hover {
+    box-shadow: inset 400px 0 0 0 #a8f561;
+    cursor: pointer;
+    color: black;
+    
+}

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@500&display=swap');
+
+html{
+    zoom: 67%;
+}
+
+body {
+  background: #333;
+  padding-top: 2em;
+  margin: 0px;
+  
+}
+
+
+ 
+
+li, a {
+  font-family: "Noto Sans Display", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: #0095cf;
+  text-decoration: none;
+
+}
+
+
+header {
+  display: inline-flexbox;
+  
+    padding: 0px 5%;
+
+}
+.list_lk {
+  list-style: none;
+  
+
+}
+
+.list_lk li {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+ 
+  
+  
+}
+.list_lk li a {
+  transition: all 0.4s ease 0s;
+  font-size: 20px;
+  }
+
+
+.list_lk li a:hover {
+  color: #03708b;
+  }
+
+ 
+  
+  
+  
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    vertical-align: middle;
+  }
+  
+  li {
+    float: right;
+   
+  }
+  
+  li a {
+    
+    color: white;
+    
+    
+    text-decoration: none;
+    
+  }
+  
+  
+.active {
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+    width: 70px;
+    text-align: center;
+  }
+
+.active:hover {
+  size: 110%;
+}
+
+
+
+
+.typewriter h1 {
+      color: #fff;
+      font-family: 'Red Hat Display', sans-serif;
+      overflow: hidden; 
+      border-right: .15em solid orange; 
+      white-space: nowrap; 
+      margin: 0 auto; 
+      letter-spacing: .13em; 
+      animation: 
+        typing 2.5s steps(20, end),
+        blink-caret .3s step-end infinite;
+        display: inline-flex;
+        font-size: 100px;
+        
+    }
+    
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0% }
+      to { width: 25% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      60% { border-color: orange }
+    }
+
+.blog {
+    padding-left: 120px;
+    padding-right: 120px;
+ text-align: left;
+ color: white;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: 30px;
+}
+
+.quote {
+    color: #0095cf;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-style: italic;
+
+}
